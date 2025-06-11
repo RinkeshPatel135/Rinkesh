@@ -1,0 +1,39 @@
+<html>
+    <head>
+           <title>Contact Us Form</title>
+           <link href="logo.jpg" rel="icon">
+    </head>
+    <body>
+           <fieldset>
+                       <legend>Contact Us Form</legend>
+                       <form method="post">
+                              Full Name <br>
+                              <input type="text" name="fullname" placeholder="Enter Full Name" size="30" pattern="[a-z' 'A-Z]+" required><br><br>
+
+                              Email Address <br>
+                              <input type="email" name="mail" placeholder="Enter Email Address" size="30" required><br><br>
+
+                              Phone Number <br>
+                              <input type="text" name="number" placeholder="Enter Phone Number" size="30" pattern="[0-9]{10}" required><br><br>
+
+                              Reason for Contact: &nbsp
+                              <select name="reason" required>
+                                   <option  value="Business Inquiry" selected>Business Inquiry</option>
+                                   <option value="Feedback">Feedback</option>
+                                   <option value="For Get Job">For Get Job</option>
+                                   <option value="Other">Other</option>
+                              </select><br><br>
+
+                              Preferred Contact Method : Phone <input type="radio" name="method" value="Phone" required checked>
+                              Email <input type="radio" name="method" value="Email" required>
+                              Whatsapp <input type="radio" name="method" value="Whatsapp" required><br><br>
+                              
+                              Message/Comment :
+                              <textarea name="message" row="5" cols="50" > write your message.......
+                              </textarea><br><br>
+
+                              <input type="submit" name="submit" value="Contact Us" required>
+                       </form>
+           </fieldset>
+    </body>
+</html>
