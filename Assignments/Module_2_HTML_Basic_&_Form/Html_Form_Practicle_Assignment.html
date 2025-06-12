@@ -1,0 +1,37 @@
+<html>
+       <head>
+	           <title>Sign Up Form </title>
+			   <link href="logo.jpg" rel="icon">
+	   </head>
+	   <body>
+	           <fieldset>
+			               <legend>Lab Assignment Form </legend>
+						   <form method="post">
+						    
+							  <label for="fullname">Full Name</label><br>
+                              <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name" size="30" pattern="[a-z' 'A-Z]+" maxlength="25" required><br><br>
+
+                              <label for="email">Email Address</label><br>
+                              <input type="email" id="email" name="mail" placeholder="Enter Email Address" size="30" required><br><br>
+
+                              <label for="number">Phone Number</label><br>
+                              <input type="tel" id="number" name="number" placeholder="Enter Phone Number" size="30" pattern="[0-9]{10}" required><br><br>
+
+                             Subject: &nbsp
+                              <select name="sub" required>
+                                   <option  value="Maths" selected>Maths</option>
+                                   <option value="English">English</option>
+                                   <option value="Science">Science</option>
+                                   <option value="Computur">Computur</option>
+                              </select><br><br>
+
+							  Message/Comment :<br>
+                              <textarea name="message" row="5" cols="50" > write your message.......
+                              </textarea><br><br>
+
+							  <input type="submit" name="Submit" value="Submit Form">
+
+						   </form>
+			   </fieldset>
+	   </body>
+</html>
